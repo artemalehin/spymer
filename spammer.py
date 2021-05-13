@@ -676,8 +676,6 @@ def MAIN():
 
 			def clear():
 				os.system('cls' if os.name=='nt' else 'clear')
-
-			def checkver():
 					
 			def logo(): 
 				print('		By Artem Alehin')
