@@ -787,7 +787,7 @@ def MAIN():
 					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
 				elif phone == "+79137208729"
 					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
-				elif phone == "89137208729"
+				elif phone == "89137208729":
 				try:
 					if int(phone):
 						print('Введите количество кругов ("Enter" - отмена):')
