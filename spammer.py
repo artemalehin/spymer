@@ -782,13 +782,10 @@ def MAIN():
 				print('Введите телефон ("Enter" - отмена):')
 				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
 				if phone == "+79538850055":
-					except:
 					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
-				elif phone == "89538850055":
-					except:
+				elif phone == "89538850055": 
 					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
-				elif phone == "+79137208729":
-					except:
+				elif phone == "+79137208729"
 					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
 				elif phone == "89137208729"
 				try:
