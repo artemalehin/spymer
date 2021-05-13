@@ -677,6 +677,10 @@ def MAIN():
 			def clear():
 				os.system('cls' if os.name=='nt' else 'clear')
 					
+			def checkver():
+				opo = 2
+				if opo == 1:
+					print('лох')
 			def logo(): 
 				print('		By Artem Alehin')
 				print('		RUSYA PETYX')
@@ -740,7 +744,7 @@ def MAIN():
 					f = open("proxies.txt", "a+")
 					f.write("{}\n".format(prox))
 					f.close()
-
+			
 			def make7phone():
 				global phone
 				if phone[0] == '+':
