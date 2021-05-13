@@ -785,14 +785,6 @@ def MAIN():
 				print(info)
 				print('Введите телефон ("Enter" - отмена):')
 				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
-				if phone == +79538850055:
-					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
-				elif phone == 89538850055: 
-					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
-				elif phone == +79137208729:
-					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
-				elif phone == 89137208729:
-					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
 				try:
 					if int(phone):
 						print('Введите количество кругов ("Enter" - отмена):')
@@ -803,6 +795,9 @@ def MAIN():
 								make7phone()
 								iteration = 0
 								addparams()
+								import webbrowser
+
+								webbrowser.open ('https://vk.com/artem_036', new=2)
 								info = '\nТелефон: {}\nКол-во кругов: {}'.format(phone, count)+'\nСпамер запущен.\nЕсли хочешь остановить - нажмите Ctrl+Z.'
 								clear()
 								logo()
