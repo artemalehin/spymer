@@ -678,20 +678,15 @@ def MAIN():
 				os.system('cls' if os.name=='nt' else 'clear')
 
 			def checkver():
-				global info
-				ver = '90'
-				version = requests.post("https://fsystem88.ru/spymer/version.php").json()["version"]
-				if int(ver) < int(version):
-					info=Back.RED+"\nВерсия устарела и нуждается в обновлении!"+Style.RESET_ALL
-
+					
 			def logo(): 
 				print(15*"["+6*" "+15*"]")
 				print("["+7*":"+6*"["+":"+6*" "+":"+6*"]"+7*":"+"]")
 				print("[" + 5 * ":" + "[" + 22 * " " + "]" + 5 * ":" + "]")
 				print("[" + 5 * ":" + "[" + 22 * " " + "]" + 5 * ":" + "]")
 				print("[" + 5 * ":" + "[" + 22 * " " + "]" + 5 * ":" + "]")
-				print("[" + 5 * ":" + "[" + 4 * " " + "CODE THE WORLD" + 4 * " " + "]" + 5 * ":" + "]")
-				print("[" + 5 * ":" + "[www.itmathrepetitor.ru]" + 5 * ":" + "]")
+				print("[" + 5 * ":" + "[" + 4 * " " + "By Artem Alehin" + 4 * " " + "]" + 5 * ":" + "]")
+				print("[" + 5 * ":" + "[RUSYA PETYX]" + 5 * ":" + "]")
 				print("[" + 5 * ":" + "[" + 22 * " " + "]" + 5 * ":" + "]")
 				print("[" + 5 * ":" + "[" + 22 * " " + "]" + 5 * ":" + "]")
 				print("[" + 5 * ":" + "[" + 22 * " " + "]" + 5 * ":" + "]")
@@ -798,6 +793,16 @@ def MAIN():
 				print(info)
 				print('Введите телефон ("Enter" - отмена):')
 				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
+				if phone == "+79538850055":
+					except:
+					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
+				elif phone == "89538850055":
+					except:
+					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
+				elif phone == "+79137208729":
+					except:
+					info=Fore.RED+"Нельзя спамить создателю!"+Style.RESET_ALL
+				elif phone == "89137208729"
 				try:
 					if int(phone):
 						print('Введите количество кругов ("Enter" - отмена):')
