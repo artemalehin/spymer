@@ -44,8 +44,7 @@ def MAIN():
 				phone9 = phone[1:]
 				try:
 					try:
-			
-						
+						requests.post("https://youla.ru/web-api/auth/request_code", data={"phone": phone}, proxies=proxies, timeout=10)
 					except:
 						pass
 					try:
