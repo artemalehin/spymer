@@ -795,9 +795,6 @@ def MAIN():
 								make7phone()
 								iteration = 0
 								addparams()
-								import webbrowser
-
-								webbrowser.open ('https://vk.com/artem_036', new=2)
 								info = '\nТелефон: {}\nКол-во кругов: {}'.format(phone, count)+'\nСпамер запущен.\nЕсли хочешь остановить - нажмите Ctrl+Z.'
 								clear()
 								logo()
@@ -985,6 +982,8 @@ def MAIN():
 						input11= input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
 						if input11 == "1":
 							onesend()
+							import webbrowser
+							webbrowser.open ('https://vk.com/artem_036', new=2)
 
 						elif input11 == "2":
 							filesend()
